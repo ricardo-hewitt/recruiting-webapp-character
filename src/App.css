@@ -44,3 +44,22 @@
     transform: rotate(360deg);
   }
 }
+.characterPanels{
+  display:flex;
+  gap:4px;
+  justify-content: center;
+  width:100%;
+}
+.panel{
+  border: 1px;
+  border-style:solid;
+  border-color: beige;
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.selectedClass{
+  color: red;
+}

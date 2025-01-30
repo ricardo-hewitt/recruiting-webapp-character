@@ -6,5 +6,4 @@ export type Attributes = {
     Wisdom: number;
     Charisma: number;
 };
-
 export type Class = "Barbarian" | "Wizard" | "Bard";

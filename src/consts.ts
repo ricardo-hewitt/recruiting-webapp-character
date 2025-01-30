@@ -1,5 +1,6 @@
 import type { Attributes, Class } from "./types";
 
+
 export const ATTRIBUTE_LIST = [
     'Strength',
     'Dexterity',
@@ -8,7 +9,9 @@ export const ATTRIBUTE_LIST = [
     'Wisdom',
     'Charisma',
 ];
+export type Attribute = (typeof ATTRIBUTE_LIST)[number];
 
+export const GIT_HUB_NAME='ricardo-hewitt'
 export const CLASS_LIST: Record<Class, Attributes> = {
     'Barbarian': {
         'Strength': 14,
